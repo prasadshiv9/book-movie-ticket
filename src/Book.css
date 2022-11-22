@@ -1,0 +1,47 @@
+.book {
+  position: relative;
+  /* overflow-y: scroll; */
+}
+/* .book >h2 {
+    color: #fff
+} */
+.book_name {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  margin-top: 150px;
+  position: absolute;
+  top: 220px;
+}
+.book_image {
+  height: 500px;
+  width: 90%;
+  position: relative;
+  object-fit: contain;
+  /* align-items: center;
+  justify-content: center; */
+  color: white;
+  margin: 13px;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+}
+.book_contents {
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+
+
+
+.banner_right > h3{
+  color: #fff;
+  margin-left:19px;
+}
+.banner_right > img{
+  height:100px;
+  object-fit: cover;
+  margin-left:15px;
+  width: 100px;
+}
